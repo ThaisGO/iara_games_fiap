@@ -1,0 +1,87 @@
+green/50: #
+green/50: #FoFDF4
+green/100: ##DDFBE6
+green/200: ##BCF6CE
+green/300: ##88EDA9
+green/400: ##4DDB7C
+green/500: ##24B956
+green/600: ##24B956
+green/700: ##177E3A
+green/800: ##186332
+green/900: ##15522B
+green/950: ##062D15
+
+yellow/50: #FDF9E9
+yellow/100: #FBF2C6
+yellow/200: #F8E290
+yellow/300: #F4CB50
+yellow/400: #F0B933
+yellow/500: #DF9B13
+yellow/600: #C0760E
+yellow/700: #99540F
+yellow/800: #7F4314
+yellow/900: #6C3817
+yellow/950: #3F1C09
+
+
+gray/50: #F9FBFA
+gray/100: #F3F6F4
+gray/200: #E5EBE7
+gray/300: #D1DCD5
+gray/400: #99AFA0
+gray/500: #6A8272
+gray/600: #4A6553
+gray/700: #365340
+gray/800: #1E3927 
+gray/900: #102819
+gray/950: #031209 
+
+Tokens Semanticos
+token | refere-se a | classe tailwind
+--text/--title-neutral | neutral/gray/50 | text-title
+--text/--title-primary | brand/green/500 | text-title-primary
+--text/--title-secondary | brand/yellow/400 | text-title-secondary
+--text/--subtitle | light-gray/88 | text-subtitle
+--text/--body | light-gray/72 | text-body
+--text/--caption | light-gray/64 | text-caption
+--surface/--primary | neutral/gray/950 | bg-surface
+--surface/--secondary | neutral/gray/900 | bg-surface-2
+--surface/--subtle | green/8 | bg-surface-subtle
+--surface/--elevation | green/16 | bg-surface-elevation
+--action/--primary/--default | green/500 | bg-brand-green-500
+--action/--primary/--hover | green/400 | hover:bg-brand-green-400
+--action/--secondary/--default | yellow/400 | bg-brand-yellow-400
+--action/--secondary/--hover | yellow/500 | hover:bg-brand-yellow-500
+--border/--default | light-gray/16 | border-line
+--border/--dark | light-gray/24 | border-line-strong
+--border/--darker | light-gray/32 | border-line-stronger
+
+
+Títulos em Big Shoulders Display (800). Corpo em Raleway (400 / 600 / 800). Aplique a classe pronta — não recrie com text-* + font-*.
+
+.headlines-h1 · 64px
+.headlines-h2 · 56px
+.headlines-h3 · 48px
+.headlines-h4 · 40px
+.headlines-h5 · 32px
+.headlines-h6 · 24px     
+
+
+Ele até me deu um componente de botão primario que ele criou no figma e com o código
+
+<button className="inline-flex items-center gap-2 rounded-xl bg-brand-green-500 px-6 py-3.5 body-extrabold-sm uppercase tracking-wide text-surface transition-colors hover:bg-brand-green-400 active:bg-brand-green-300">
+  Ação primária
+</button>
+
+e dois cards com diretrizes
+Faça
+✔ Use utilitários de token: bg-surface, text-title, border-line.
+✔ Aplique classes tipográficas prontas (headlines-h3, body-regular-md).
+✔ Bordas sempre em --border/--default.
+✔ Verde = ação primária; amarelo = destaque/CTA.
+
+Não faça
+✗ Não escreva hex cru (bg-[#24b956]).
+✗ Não recrie fontes com text-2xl font-bold.
+✗ Não use style inline para cor, fonte ou raio.
+✗ Não misture bordas brancas sólidas — use o token.
