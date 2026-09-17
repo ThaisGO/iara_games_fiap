@@ -1,131 +1,131 @@
 :root {
-   /* ========================================
+  /* ========================================
      Primitive Colors
      ======================================== */
 
-   /* Green */
-   --green-50: #f0fdf4;
-   --green-100: #ddfbe6;
-   --green-200: #bcf6ce;
-   --green-300: #88eda9;
-   --green-400: #4ddb7c;
-   --green-500: #24b956;
-   /* rever esse valor duplicado */
-   --green-600: #24b956;
-   --green-700: #177e3a;
-   --green-800: #186332;
-   --green-900: #15522b;
-   --green-950: #062d15;
+  /* Green */
+  --green-50: #f0fdf4;
+  --green-100: #ddfbe6;
+  --green-200: #bcf6ce;
+  --green-300: #88eda9;
+  --green-400: #4ddb7c;
+  --green-500: #24b956;
+  /* rever esse valor duplicado */
+  --green-600: #24b956;
+  --green-700: #177e3a;
+  --green-800: #186332;
+  --green-900: #15522b;
+  --green-950: #062d15;
 
-   /* Yellow */
-   --yellow-50: #fdf9e9;
-   --yellow-100: #fbf2c6;
-   --yellow-200: #f8e290;
-   --yellow-300: #f4cb50;
-   --yellow-400: #f0b933;
-   --yellow-500: #df9b13;
-   --yellow-600: #c0760e;
-   --yellow-700: #99540f;
-   --yellow-800: #7f4314;
-   --yellow-900: #6c3817;
-   --yellow-950: #3f1c09;
+  /* Yellow */
+  --yellow-50: #fdf9e9;
+  --yellow-100: #fbf2c6;
+  --yellow-200: #f8e290;
+  --yellow-300: #f4cb50;
+  --yellow-400: #f0b933;
+  --yellow-500: #df9b13;
+  --yellow-600: #c0760e;
+  --yellow-700: #99540f;
+  --yellow-800: #7f4314;
+  --yellow-900: #6c3817;
+  --yellow-950: #3f1c09;
 
-   /* Gray */
-   --gray-50: #f9fbfa;
-   --gray-100: #f3f6f4;
-   --gray-200: #e5ebe7;
-   --gray-300: #d1dcd5;
-   --gray-400: #99afa0;
-   --gray-500: #6a8272;
-   --gray-600: #4a6553;
-   --gray-700: #365340;
-   --gray-800: #1e3927;
-   --gray-900: #102819;
-   --gray-950: #031209;
+  /* Gray */
+  --gray-50: #f9fbfa;
+  --gray-100: #f3f6f4;
+  --gray-200: #e5ebe7;
+  --gray-300: #d1dcd5;
+  --gray-400: #99afa0;
+  --gray-500: #6a8272;
+  --gray-600: #4a6553;
+  --gray-700: #365340;
+  --gray-800: #1e3927;
+  --gray-900: #102819;
+  --gray-950: #031209;
 
-   /* Typography - Body sizes */
-   --font-size-body-xl: 20px;
-   --font-size-body-lg: 18px;
-   --font-size-body-md: 16px;
-   --font-size-body-sm: 14px;
-   --font-size-body-xs: 12px;
+  /* Typography - Body sizes */
+  --font-size-body-xl: 20px;
+  --font-size-body-lg: 18px;
+  --font-size-body-md: 16px;
+  --font-size-body-sm: 14px;
+  --font-size-body-xs: 12px;
 
-   /* Typography - Weights */
-   --font-weight-regular: 400;
-   --font-weight-semibold: 600;
-   --font-weight-extrabold: 800;
+  /* Typography - Weights */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-extrabold: 800;
 
-   /* ========================================
+  /* ========================================
      Semantic Tokens
      ======================================== */
 
-   /* Text */
-   --title-neutral: var(--gray-50);
-   --title-primary: var(--green-500);
-   --title-secondary: var(--yellow-400);
+  /* Text */
+  --title-neutral: var(--gray-50);
+  --title-primary: var(--green-500);
+  --title-secondary: var(--yellow-400);
 
-   --subtitle: rgb(from var(--gray-50) r g b / 88%);
-   --body: rgb(from var(--gray-50) r g b / 72%);
-   --caption: rgb(from var(--gray-50) r g b / 64%);
+  --subtitle: rgb(from var(--gray-50) r g b / 88%);
+  --body: rgb(from var(--gray-50) r g b / 72%);
+  --caption: rgb(from var(--gray-50) r g b / 64%);
 
-   /* Surface */
-   --surface-primary: var(--gray-950);
-   --surface-secondary: var(--gray-900);
-   --surface-subtle: var(--green-900);
-   --surface-elevation: var(--green-800);
+  /* Surface */
+  --surface-primary: var(--gray-950);
+  --surface-secondary: var(--gray-900);
+  --surface-subtle: var(--green-900);
+  --surface-elevation: var(--green-800);
 
-   /* Actions */
-   --action-primary-default: var(--green-500);
-   --action-primary-hover: var(--green-400);
+  /* Actions */
+  --action-primary-default: var(--green-500);
+  --action-primary-hover: var(--green-400);
 
-   --action-secondary-default: var(--yellow-400);
-   --action-secondary-hover: var(--yellow-500);
+  --action-secondary-default: var(--yellow-400);
+  --action-secondary-hover: var(--yellow-500);
 
-   /* Border */
-   --border-default: rgb(from var(--gray-50) r g b / 16%);
-   --border-dark: rgb(from var(--gray-50) r g b / 24%);
-   --border-darker: rgb(from var(--gray-50) r g b / 32%);
+  /* Border */
+  --border-default: rgb(from var(--gray-50) r g b / 16%);
+  --border-dark: rgb(from var(--gray-50) r g b / 24%);
+  --border-darker: rgb(from var(--gray-50) r g b / 32%);
 }
 
 @theme {
-   /* ========================================
+  /* ========================================
      Brand colors
      ======================================== */
 
-   --color-brand-green-300: var(--green-300);
-   --color-brand-green-400: var(--green-400);
-   --color-brand-green-500: var(--green-500);
+  --color-brand-green-300: var(--green-300);
+  --color-brand-green-400: var(--green-400);
+  --color-brand-green-500: var(--green-500);
 
-   --color-brand-yellow-400: var(--yellow-400);
-   --color-brand-yellow-500: var(--yellow-500);
-   --color-yellow-glow: rgb(from var(--yellow-400) r g b / 16%);
+  --color-brand-yellow-400: var(--yellow-400);
+  --color-brand-yellow-500: var(--yellow-500);
+  --color-yellow-glow: rgb(from var(--yellow-400) r g b / 16%);
 
-   /* ========================================
+  /* ========================================
      Text
      ======================================== */
 
-   --color-title: var(--title-neutral);
-   --color-title-primary: var(--title-primary);
-   --color-title-secondary: var(--title-secondary);
+  --color-title: var(--title-neutral);
+  --color-title-primary: var(--title-primary);
+  --color-title-secondary: var(--title-secondary);
 
-   --color-subtitle: var(--subtitle);
-   --color-body: var(--body);
-   --color-caption: var(--caption);
+  --color-subtitle: var(--subtitle);
+  --color-body: var(--body);
+  --color-caption: var(--caption);
 
-   /* ========================================
+  /* ========================================
      Surface
      ======================================== */
 
-   --color-surface: var(--surface-primary);
-   --color-surface-2: var(--surface-secondary);
-   --color-surface-subtle: var(--surface-subtle);
-   --color-surface-elevation: var(--surface-elevation);
+  --color-surface: var(--surface-primary);
+  --color-surface-2: var(--surface-secondary);
+  --color-surface-subtle: var(--surface-subtle);
+  --color-surface-elevation: var(--surface-elevation);
 
-   /* ========================================
+  /* ========================================
      Border
      ======================================== */
 
-   --color-line: var(--border-default);
-   --color-line-strong: var(--border-dark);
-   --color-line-stronger: var(--border-darker);
+  --color-line: var(--border-default);
+  --color-line-strong: var(--border-dark);
+  --color-line-stronger: var(--border-darker);
 }
