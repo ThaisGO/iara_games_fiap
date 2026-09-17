@@ -143,3 +143,11 @@
     /* 2º PONTO FORTE: A grande luz verde acesa que vem do canto superior esquerdo */
     radial-gradient(circle at 15% 25%, #0f4d1e 0%, #062b10 30%, transparent 70%);
 }
+
+@utility bg-pattern-indigena {
+  /* Substitua pelo caminho real da sua imagem */
+  background-image: url('/public/assets/pattern-iara.png');
+  background-repeat: repeat-x; /* Faz repetir apenas na horizontal (eixo X) */
+  background-position: left center; /* Alinha o início do padrão à esquerda */
+  background-size: auto 100%; /* Ajusta a altura para preencher o container mantendo a proporção */
+}

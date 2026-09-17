@@ -11,7 +11,7 @@
   <body class="bg-surface">
     <!-- Menu lateral -->
     <aside
-      class="fixed left-0 top-0 h-screen w-66 overflow-y-auto bg-surface-2 p-6 z-10"
+      class="hidden md:block fixed left-0 top-0 h-screen w-66 overflow-y-auto bg-surface-2 border border-r-line p-6 z-10 "
     >
       <div class="flex justify-center my-4">
         <img
@@ -136,8 +136,8 @@
     </aside>
 
     <!-- Conteúdo principal -->
-    <main class="ml-66 min-h-screen p-8">
-      <div class="w-full max-w-294 mx-auto">
+    <main class="ml-0 md:ml-66 min-h-screen pt-8">
+      <div class="w-full max-w-[1440px] px-8 mx-auto">
         <!-- Menu top -->
         <section
           class="flex flex-col gap-4 pb-5 lg:flex-row lg:items-center lg:justify-between"
@@ -183,9 +183,11 @@
             </ul>
           </div>
         </section>
+      </div>
 
         <hr class="mb-10 w-full border-[1.3px] border-line overflow-visible" />
 
+        <div class="w-full max-w-[1440px] px-8 mx-auto">
         <!-- Hero -->
         <section class="grid grid-cols-1 gap-4 lg:grid-cols-3">
           <!-- Hero principal -->
@@ -290,9 +292,10 @@
             </button>
           </article>
         </section>
+        </div>
       </div>
       <!-- DOBRA DE JOGOS -->
-      <div class="w-full max-w-294 mx-auto">
+      <div class="w-full max-w-[1440px] px-8 mx-auto">
         <section class="mt-16">
           <!-- Titulo -->
           <div class="mb-8 flex items-center gap-3">
@@ -623,7 +626,7 @@
         </section>
       </div>
       <!-- DOBRA CATEGORIAS -->
-      <div class="w-full max-w-294 mx-auto">
+      <div class="w-full max-w-[1440px] px-8 mx-auto">
         <section class="mt-16">
           <div class="mb-8 flex items-center gap-3">
             <span>
@@ -654,7 +657,7 @@
       </div>
 
       <!-- BANNER CTA -->
-      <div class="w-full max-w-294 mx-auto">
+      <div class="w-full max-w-[1440px] px-8 mx-auto">
         <section class="mt-16">
           <div
             class="bg-radial-game w-full min-h-[400px] rounded-2xl flex flex-col items-center justify-center text-center gap-5 p-8"
@@ -677,7 +680,7 @@
         </section>
       </div>
       <!-- SECTION SOBRE -->
-      <div class="w-full max-w-294 mx-auto">
+      <div class="w-full max-w-[1440px] px-8 mx-auto">
         <section class="mt-16">
           <div class="grid md:grid-cols-1 gap-6 lg:grid-cols-[1fr_2fr_1.3fr]">
             <!-- CARD IARA -->
@@ -748,7 +751,9 @@
                   criativo com vocês! Esperamos que gostem 💚
                 </p>
               </div>
-              <div><img src="public/assets/comunidade.png" alt="" /></div>
+              <div class="flex items-center justify-center">
+                <img src="public/assets/comunidade.png" alt=""/>
+              </div>
               <div class="flex items-center justify-between">
                 <div class="flex items-center gap-5">
                   <p class="body-regular-sm text-caption">128</p>
@@ -764,8 +769,11 @@
         </section>
       </div>
       
-      <section class="w-full mt-16">
+      <!-- <section class="w-full mt-16 bg-repeat">
         <img src="public/assets/pattern-iara.png" alt="">
+      </section> -->
+      <section class="bg-pattern-indigena w-full min-h-[100px] mt-16">
+        <!-- <img src="public/assets/pattern-iara.png" alt=""> -->
       </section>
 
       <footer class="bg-surface-2 border-t border-line">
