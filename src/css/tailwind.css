@@ -133,3 +133,13 @@
   font-size: var(--font-size-body-xs);
   font-weight: var(--font-weight-extrabold);
 }
+
+
+@utility bg-radial-game {
+  background-color: #031408; /* O fundo base da imagem é esse verde floresta bem escuro */
+  background-image: 
+    /* 1º PONTO FORTE: O holofote amarelo brilhante bem em cima do botão (embaixo/direita) */
+    radial-gradient(circle at 75% 100%, rgba(242, 192, 70, 0.4) 0%, rgba(242, 192, 70, 0.1) 20%, transparent 50%),
+    /* 2º PONTO FORTE: A grande luz verde acesa que vem do canto superior esquerdo */
+    radial-gradient(circle at 15% 25%, #0f4d1e 0%, #062b10 30%, transparent 70%);
+}

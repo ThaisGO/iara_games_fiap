@@ -121,6 +121,15 @@
   --color-surface-subtle: var(--surface-subtle);
   --color-surface-elevation: var(--surface-elevation);
 
+    /* ========================================
+     Actions
+     ======================================== */
+  --color-action-primary-default: var(--green-500);
+  --color-action-primary-hover: var(--green-400);
+
+  --color-action-secondary-default: var(--yellow-400);
+  --color-action-secondary-hover: var(--yellow-500);
+
   /* ========================================
      Border
      ======================================== */
