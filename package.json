@@ -4,7 +4,8 @@
   "description": "brazilian game plataform",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss ./src/css/style.css -o ./public/build/style.css --watch"
+    "dev": "postcss ./src/css/index.css -o ./build/index.css --watch",
+    "build": "postcss ./src/css/index.css -o ./build/index.css"
   },
   "repository": {
     "type": "git",

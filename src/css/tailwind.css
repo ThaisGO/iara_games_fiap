@@ -1,1 +1,135 @@
 @import "tailwindcss";
+
+/* ========================================
+     Headline Class
+     ======================================== */
+
+@utility headlines-h1 {
+  font-family: var(--font-heading);
+  font-size: 64px;
+  font-weight: 800;
+}
+
+@utility headlines-h2 {
+  font-family: var(--font-heading);
+  font-size: 56px;
+  font-weight: 800;
+}
+
+@utility headlines-h3 {
+  font-family: var(--font-heading);
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@utility headlines-h4 {
+  font-family: var(--font-heading);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+@utility headlines-h5 {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+@utility headlines-h6 {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+/* ========================================
+     Typograph Class
+     ======================================== */
+
+@utility body-regular-xl {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-xl);
+  font-weight: var(--font-weight-regular);
+}
+
+@utility body-regular-lg {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-lg);
+  font-weight: var(--font-weight-regular);
+}
+
+@utility body-regular-md {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-md);
+  font-weight: var(--font-weight-regular);
+}
+
+@utility body-regular-sm {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-regular);
+}
+
+@utility body-regular-xs {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-xs);
+  font-weight: var(--font-weight-regular);
+}
+
+@utility body-semibold-xl {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-xl);
+  font-weight: var(--font-weight-semibold);
+}
+
+@utility body-semibold-lg {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-lg);
+  font-weight: var(--font-weight-semibold);
+}
+
+@utility body-semibold-md {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-md);
+  font-weight: var(--font-weight-semibold);
+}
+
+@utility body-semibold-sm {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+@utility body-semibold-xs {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+@utility body-extrabold-xl {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-xl);
+  font-weight: var(--font-weight-extrabold);
+}
+
+@utility body-extrabold-lg {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-lg);
+  font-weight: var(--font-weight-extrabold);
+}
+
+@utility body-extrabold-md {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-md);
+  font-weight: var(--font-weight-extrabold);
+}
+
+@utility body-extrabold-sm {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-extrabold);
+}
+
+@utility body-extrabold-xs {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-xs);
+  font-weight: var(--font-weight-extrabold);
+}
