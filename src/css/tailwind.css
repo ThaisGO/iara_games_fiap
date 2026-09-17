@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @plugin "@iconify/tailwind4" {
-  /* Alvo: Lê todos os arquivos .svg da sua pasta de assets */
   icon-sets: from-folder(custom, "./public/icones");
 }
 
@@ -141,18 +140,16 @@
 
 
 @utility bg-radial-game {
-  background-color: #031408; /* O fundo base da imagem é esse verde floresta bem escuro */
+  background-color: #031408; 
   background-image: 
-    /* 1º PONTO FORTE: O holofote amarelo brilhante bem em cima do botão (embaixo/direita) */
     radial-gradient(circle at 75% 100%, rgba(242, 192, 70, 0.4) 0%, rgba(242, 192, 70, 0.1) 20%, transparent 50%),
     /* 2º PONTO FORTE: A grande luz verde acesa que vem do canto superior esquerdo */
     radial-gradient(circle at 15% 25%, #0f4d1e 0%, #062b10 30%, transparent 70%);
 }
 
 @utility bg-pattern-indigena {
-  /* Substitua pelo caminho real da sua imagem */
   background-image: url('/public/assets/pattern-iara.png');
-  background-repeat: repeat-x; /* Faz repetir apenas na horizontal (eixo X) */
-  background-position: left center; /* Alinha o início do padrão à esquerda */
-  background-size: auto 100%; /* Ajusta a altura para preencher o container mantendo a proporção */
+  background-repeat: repeat-x;
+  background-position: left center;
+  background-size: auto 100%;
 }
