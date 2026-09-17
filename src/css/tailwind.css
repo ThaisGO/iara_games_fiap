@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@plugin "@iconify/tailwind4" {
+  /* Alvo: Lê todos os arquivos .svg da sua pasta de assets */
+  icon-sets: from-folder(custom, "./public/icones");
+}
+
 /* ========================================
      Headline Class
      ======================================== */

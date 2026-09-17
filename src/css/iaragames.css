@@ -137,4 +137,5 @@
   --color-line: var(--border-default);
   --color-line-strong: var(--border-dark);
   --color-line-stronger: var(--border-darker);
+  --border-width-medium: 2px;
 }
