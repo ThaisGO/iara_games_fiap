@@ -1,13 +1,11 @@
 # Iara Games - Plataforma de Jogos Brasileiros
-
 A Iara Games é um projeto desenvolvido para um trabalho da [Fiap.com](http://Fiap.com) que consiste em uma plataforma digital voltada ao universo dos games.
 
 Para quem quer **jogar algo novo mas não sabe o quê**, a Iara Games é uma plataforma de descoberta que organiza jogos de forma clara e acessível, com uma identidade brasileira própria — diferente das lojas globais, que otimizam para transação, e das agregadoras, que otimizam para volume.
 
-**Conceito visual:** *"Um universo gamer inspirado na identidade brasileira."* Água, natureza e tecnologia — a figura mitológica da Iara traduzida em estética contemporânea, não em folclore literal.
+Conceito visual: *"Um universo gamer inspirado na identidade brasileira."* Água, natureza e tecnologia — a figura mitológica da Iara traduzida em estética contemporânea, não em folclore literal.
 
 ## Contexto e Problema
-
 O mercado brasileiro de games consome majoritariamente através de plataformas internacionais de distribuição digital. Cada uma tem uma proposta de valor distinta — catálogo e comunidade (Steam), preço e localização (Nuuvem), curadoria e apresentação visual (Epic) — mas nenhuma foi desenhada primariamente para a *descoberta* como experiência central.
 
 **Como criar uma plataforma de games visualmente atrativa, intuitiva e acessível, que facilite a descoberta e o acesso aos conteúdos e jogos disponíveis?**
@@ -22,18 +20,15 @@ A proposta da Iara Games é inverter essa prioridade — organizar a experiênci
 
 ### Público alvo
 
-#### **Público primário**
-
+#### Público primário
 Pessoas interessadas em jogos digitais que usam plataformas online para descobrir novos games, conhecer lançamentos, pesquisar títulos e acompanhar conteúdos do universo gamer.
 
-#### **Público secundário**
-
+#### Público secundário
 Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades gamer e pessoas iniciando no mercado de jogos digitais.
 
 ### Benchmark
 
-#### **Comparativo**
-
+#### Comparativo
 | **Critério** | **Steam** | **Nuuvem** | **Epic Games Store** |
 | --- | --- | --- | --- |
 | Força principal | Catálogo e comunidade | Localização para o Brasil | Apresentação visual |
@@ -50,9 +45,6 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 - **Epic:** A apresentação visual dirige a atenção sem comprometer a clareza. → *Adotar hero + destaques; evitar banner promocional dominando a tela.*
 
 ## Identidade Visual
-
-## Images
-
 ![Imagem da home do site Iara Games](/public/assets/home.png)
 
 ## Paleta de Cores e Tipografia
@@ -69,23 +61,22 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 
 ## Decisões de UX
 
-### **Header com navegação principal**
-
+### Header com navegação principal
 - *Descrição:* cabeçalho fixo no topo com logo e cinco links: Início, Jogos, Categorias, Comunidade, Sobre.
 - *História:* Como visitante, quero ver as seções disponíveis logo ao entrar, para entender o que a plataforma oferece.
 - Marcado com <header> contendo <nav> e lista <ul>
 - Todos os links alcançáveis por Tab na ordem visual
 
-### **Hero section**
+### Hero section
 
 - *Descrição:* área de destaque com chamada principal, descrição de apoio e um CTA primário.
 - *História:* Como visitante novo, quero entender em segundos o que é a plataforma, para decidir se continuo.
-- Contém exatamente um <h1> na página inteira
+- Contém exatamente um ``<h1>`` na página inteira
 - Descrição com no máximo 2 linhas em desktop
 - Um único CTA primário, com verbo de ação claro (evitar "Saiba mais")
 - Legível sobre a imagem de fundo com contraste ≥ 4,5:1 (usar overlay se necessário)
 
-### **Seção "Jogos em destaque" com cards**
+### Seção "Jogos em destaque" com cards
 
 - *Descrição:* grade com 4 cards de jogo.
 - *História:* Como explorador, quero comparar rapidamente alguns jogos, para escolher um sem abrir várias páginas.
@@ -96,7 +87,7 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 - Card inteiro claramente clicável
 - Grade responsiva: 4 col. (≥1024px) → 2 col. (≥640px) → 1 col. (<640px)
 
-### **Seção de categorias**
+### Seção de categorias
 
 - *Descrição:* cinco categorias — RPG, Ação, Aventura, Estratégia, Indie.
 - *História:* Como visitante sem título em mente, quero navegar por gênero, para reduzir o catálogo a algo administrável.
@@ -104,20 +95,17 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 - Cada item é link com área clicável ≥ 44×44px
 - Identificação não depende só de ícone — sempre com rótulo textual
 
-### **Seção "Sobre a Iara Games"**
-
+### Seção "Sobre a Iara Games"
 - Texto de 2 a 4 frases explicando proposta e diferencial
 - Linha de medida entre 45 e 75 caracteres
 - Marcado com <section> e <h2>
 
-### **Footer**
-
+### Footer
 - Marcado com <footer>
 - Contém nome do projeto, links secundários e crédito acadêmico
 - Contraste de texto ≥ 4,5:1
 
-### **Design e experiência**
-
+### Design e experiência
 **"O usuário deve entender onde está, o que pode fazer e para onde pode ir."**
 
 | **Princípio** | **Aplicação concreta na Home** |
@@ -129,7 +117,6 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 | **Previsibilidade** | Rótulos descrevem o destino; nada muda de posição ao passar o mouse |
 
 ## Acessibilidade
-
 | **Critério** | **Requisito** |
 | --- | --- |
 | Contraste de texto (1.4.3) | ≥ 4,5:1 texto normal; ≥ 3:1 texto grande (≥24px ou ≥19px bold) |
@@ -142,18 +129,15 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 | Alvo de toque (2.5.5, AAA — adotado como meta) | ≥ 44×44px |
 
 ## Tecnologias utilizadas
-
-- HTML→ Estrutura moderna com tags semânticas.
+- **HTML** → Estrutura moderna com tags semânticas.
 - **Tailwind CSS** → Estilização rápida, responsiva e consistente.
-- Iconify → Icones próprios que ajudam a reforçar a identidade visual.
+- **Iconify** → Icones próprios que ajudam a reforçar a identidade visual.
 - **Google Fonts** → Tipografia personalizada para reforçar identidade visual.
 
 ## Deploy
-
 Para ver o site no ar use o link → [https://iara-games-fiap.vercel.app/](https://iara-games-fiap.vercel.app/)
 
-## **Autores**
-
+## Autores
 Esse projeto foi possível graças a uma equipe foda:
 
 - Ananda - Time de Produto
@@ -163,11 +147,11 @@ Esse projeto foi possível graças a uma equipe foda:
 - Thais - Time de desenvolvimento
 
 ## Usando o projeto
-
-1. Primeiramente rode o projeto com o comando abaixo para criar os arquivos necessários:
+Primeiramente rode o projeto com o comando abaixo para criar os arquivos necessários:
 
 ```
 npm run dev
 ```
+
 
 2. Depois utilize o live server.
