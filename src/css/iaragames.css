@@ -73,6 +73,7 @@
   --surface-secondary: var(--gray-900);
   --surface-subtle: var(--green-900);
   --surface-elevation: var(--green-800);
+  --surface-light: var(--green-500);
 
   /* Actions */
   --action-primary-default: var(--green-500);
@@ -118,6 +119,7 @@
 
   --color-surface: var(--surface-primary);
   --color-surface-2: var(--surface-secondary);
+  --color-surface-light: var(--surface-light);
   --color-surface-subtle: var(--surface-subtle);
   --color-surface-elevation: var(--surface-elevation);
 
