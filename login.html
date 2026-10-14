@@ -1,11 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/build/index.css" />
+
     <title>Login - Iara Games</title>
 </head>
-<body>
-    This is login
+
+<body class="bg-surface min-h-dvh flex flex-col">
+
+    <header class="border-b-medium border-line shrink-0">
+        <div class="w-full max-w-360 mx-auto flex justify-between items-center py-4 px-8">
+            <img src="public/assets/logo.png" alt="Logo da Iara Games" class="h-12 object-contain" />
+
+            <a href="index.html" class="text-body hover:text-brand-yellow-400 flex items-center gap-2">
+                <span class="icon-[custom--arrow-left] text-brand-green-500 size-4"></span>
+                Voltar para a loja
+            </a>
+        </div>
+    </header>
+
+    <main class="flex-1 relative flex flex-col">
+        <img src="public/assets/bg-cadastro.png" alt="" aria-hidden="true"
+            class="absolute inset-0 h-full w-full object-cover" />
+
+        <div class="w-full max-w-360 mx-auto flex-1 grid grid-cols-1 md:grid-cols-2 gap-20 relative z-10 py-8 px-8">
+            <div class="flex flex-col gap-8 md:justify-between md:gap-0">
+                <!-- Box info -->
+                <div class="flex flex-col gap-4">
+                    <div>
+                        <span class="icon-[custom--sparkles] text-brand-yellow-400 size-4"></span>
+                        <span class="body-extrabold-sm text-brand-green-500">
+                            UM NOVO MUNDO COMEÇA AQUI
+                        </span>
+                    </div>
+
+                    <h1 class="headlines-h1 text-title leading-18">
+                        Sua próxima aventura <br>
+                        <span class="text-title-primary">tem raízes brasileiras.</span>
+                    </h1>
+                    <p class="body-regular-lg text-body">
+                        Descubra jogos, histórias e criadores do Brasil. <br> A Iara te dá as boas-vindas.
+                    </p>
+                </div>
+                <!-- Box CTA -->
+                <div class="bg-surface-light/24 flex items-center gap-3 p-4 rounded-2xl">
+                    <div class="bg-brand-yellow-400 py-1 px-3 rounded-2xl">
+                        <p class="headlines-h5 text-center">50%</p>
+                        <p class="body-extrabold-xl text-center">OFF</p>
+                    </div>
+
+                    <div>
+                        <p class="body-semibold-md text-body">
+                            Sua primeira compra com 50% de desconto
+                        </p>
+                        <p class="body-regular-sm text-body">
+                            Para os primeiros 100 usuários cadastrados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col">
+                <div class="flex flex-col mb-8">
+                    <h1 class="headlines-h1 text-title">
+                        Crie sua conta na Iara
+                    </h1>
+                    <p class="body-regular-sm text-body">
+                        Seu lugar para descobrir e apoiar jogos brasileiros.
+                    </p>
+                </div>
+
+                <!-- Controles das abas -->
+                <div class="grid grid-cols-2 rounded-lg  p-1">
+
+                    <input type="radio" name="form-tab" id="tab-cadastro" class="peer/cadastro sr-only" checked />
+                    <input type="radio" name="form-tab" id="tab-login" class="peer/login sr-only" />
+
+                    <label for="tab-cadastro"
+                        class="col-start-1 row-start-1 cursor-pointer rounded-md py-2 text-center text-body body-regular-sm peer-checked/cadastro:bg-brand-yellow-400/24 peer-checked/cadastro:text-yellow-400 peer-checked/cadastro:body-extrabold-sm">
+                        Criar conta
+                    </label>
+
+                    <label for="tab-login"
+                        class="col-start-2 row-start-1 cursor-pointer rounded-md py-2 text-center text-body body-regular-sm peer-checked/login:bg-brand-yellow-400/24 peer-checked/login:text-yellow-400 peer-checked/login:body-extrabold-sm">
+                        Entrar
+                    </label>
+
+                    <!-- Formulário de cadastro -->
+                    <div class="col-span-2 row-start-2 hidden pt-6 peer-checked/cadastro:block">
+                        <form class="flex flex-col gap-3">
+
+                            <div class="flex flex-col gap-2">
+                                <label for="usuario" class="body-semibold-sm-sm text-body">
+                                    Nome de usuário
+                                </label>
+
+                                <input id="usuario" name="usuario" type="text" placeholder="Ex: @curupira_67"
+                                    class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <label for="email" class="body-semibold-sm-sm text-body">
+                                    E-mail
+                                </label>
+
+                                <input id="email" name="email" type="email" placeholder="Ex: curupira_67@exemplo.com"
+                                    class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <label for="password" class="body-semibold-sm-sm text-body">
+                                    Senha
+                                </label>
+
+                                <input id="password" name="password" type="password" placeholder="Crie uma senha"
+                                    class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <label for="confirm-password" class="body-semibold-sm-sm text-body">
+                                    Confirmar senha
+                                </label>
+
+                                <input id="confirm-password" name="confirm-password" type="password"
+                                    placeholder="Digite sua senha novamente"
+                                    class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
+                            </div>
+
+                            <a class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-yellow-400 px-6 py-3 body-extrabold-sm tracking-wide text-surface transition-colors cursor-pointer hover:bg-brand-yellow-glow"
+                                href="breve.html">
+                                Criar minha conta
+                                <span class="icon-[custom--arrow-right] size-5"></span>
+                            </a>
+
+                        </form>
+                    </div>
+
+                    <!-- Formulário de login -->
+                    <div class="col-span-2 row-start-2 hidden pt-6 peer-checked/login:block">
+                        <form class="flex flex-col gap-4">
+
+                            <div class="flex flex-col gap-2">
+                                <label for="email-login" class="body-semibold-sm-sm text-body">
+                                    E-mail
+                                </label>
+
+                                <input id="email-login" name="email" type="email" placeholder="Digite seu e-mail"
+                                    class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <label for="senha-login" class="body-semibold-sm-sm text-body">
+                                    Senha
+                                </label>
+
+                                <input id="senha-login" name="senha" type="password" placeholder="Digite sua senha"
+                                    class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
+                            </div>
+
+                            <a class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-yellow-400 px-6 py-3 body-extrabold-sm tracking-wide text-surface transition-colors cursor-pointer hover:bg-brand-yellow-glow"
+                                href="breve.html">
+                                Entrar na Iara
+                                <span class="icon-[custom--arrow-right] size-5"></span>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t-medium border-line px-8 py-6 shrink-0">
+        <div class="w-full max-w-360 mx-auto">
+            <div class="flex justify-between">
+                <p class="body-regular-xs text-body">
+                    © 2026 Iara Games. Todos os direitos reservados.
+                </p>
+                <p class="body-regular-xs text-body">
+                    Desenvolvido pela equipe Ananda · Thais · Vidal · Pâmela · Vinicius
+                </p>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
