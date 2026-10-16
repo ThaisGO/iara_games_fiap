@@ -92,14 +92,15 @@
 
                     <!-- Formulário de cadastro -->
                     <div class="col-span-2 row-start-2 hidden pt-6 peer-checked/cadastro:block">
-                        <form class="flex flex-col gap-3">
+
+                        <form action="breve.html" method="get" class="flex flex-col gap-3">
 
                             <div class="flex flex-col gap-2">
                                 <label for="usuario" class="body-semibold-sm-sm text-body">
                                     Nome de usuário
                                 </label>
 
-                                <input id="usuario" name="usuario" type="text" placeholder="Ex: @curupira_67"
+                                <input id="usuario" name="usuario" type="text" placeholder="Ex: @curupira_67" required
                                     class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
                             </div>
 
@@ -109,6 +110,7 @@
                                 </label>
 
                                 <input id="email" name="email" type="email" placeholder="Ex: curupira_67@exemplo.com"
+                                    required
                                     class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
                             </div>
 
@@ -118,6 +120,7 @@
                                 </label>
 
                                 <input id="password" name="password" type="password" placeholder="Crie uma senha"
+                                    required minlength="8"
                                     class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
                             </div>
 
@@ -127,22 +130,25 @@
                                 </label>
 
                                 <input id="confirm-password" name="confirm-password" type="password"
-                                    placeholder="Digite sua senha novamente"
+                                    placeholder="Digite sua senha novamente" required minlength="8"
                                     class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
                             </div>
 
-                            <a class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-yellow-400 px-6 py-3 body-extrabold-sm tracking-wide text-surface transition-colors cursor-pointer hover:bg-brand-yellow-glow"
-                                href="breve.html">
+                            <button type="submit"
+                                class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-yellow-400 px-6 py-3 body-extrabold-sm tracking-wide text-surface transition-colors cursor-pointer hover:bg-brand-yellow-glow">
                                 Criar minha conta
                                 <span class="icon-[custom--arrow-right] size-5"></span>
-                            </a>
+                            </button>
 
                         </form>
+
                     </div>
 
                     <!-- Formulário de login -->
+
                     <div class="col-span-2 row-start-2 hidden pt-6 peer-checked/login:block">
-                        <form class="flex flex-col gap-4">
+
+                        <form action="breve.html" method="get" class="flex flex-col gap-4">
 
                             <div class="flex flex-col gap-2">
                                 <label for="email-login" class="body-semibold-sm-sm text-body">
@@ -150,6 +156,7 @@
                                 </label>
 
                                 <input id="email-login" name="email" type="email" placeholder="Digite seu e-mail"
+                                    required
                                     class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
                             </div>
 
@@ -159,15 +166,18 @@
                                 </label>
 
                                 <input id="senha-login" name="senha" type="password" placeholder="Digite sua senha"
+                                    required
                                     class="w-full rounded-lg border border-line bg-surface/80 p-3 text-body placeholder:text-body/50" />
                             </div>
 
-                            <a class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-yellow-400 px-6 py-3 body-extrabold-sm tracking-wide text-surface transition-colors cursor-pointer hover:bg-brand-yellow-glow"
-                                href="breve.html">
+                            <button type="submit"
+                                class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-yellow-400 px-6 py-3 body-extrabold-sm tracking-wide text-surface transition-colors cursor-pointer hover:bg-brand-yellow-glow">
                                 Entrar na Iara
                                 <span class="icon-[custom--arrow-right] size-5"></span>
-                            </a>
+                            </button>
+
                         </form>
+
                     </div>
                 </div>
             </div>

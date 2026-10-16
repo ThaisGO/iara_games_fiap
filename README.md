@@ -128,6 +128,13 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 | Uso da cor (1.4.1) | Nenhuma informação transmitida só por cor |
 | Alvo de toque (2.5.5, AAA — adotado como meta) | ≥ 44×44px |
 
+## Evolução de plataforma
+Evoluímos nossa plataforma com um banner de captação de cadastro para novos jogadores e com desconto
+Para ver a nova página de login use o link → [https://iara-games-fiap.vercel.app/login](https://iara-games-fiap.vercel.app/)
+
+### Persona
+Para esssa nova página foram utilizdos estratégias de design na construção da proto-persona Bruno que foi o nosso guia para a jornada de usuário de login e cadastro bem como a implementação da UI apra o código.
+
 ## Tecnologias utilizadas
 - **HTML** → Estrutura moderna com tags semânticas.
 - **Tailwind CSS** → Estilização rápida, responsiva e consistente.
