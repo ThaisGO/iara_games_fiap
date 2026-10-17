@@ -67,6 +67,11 @@ Desenvolvedores independentes, estúdios, criadores de conteúdo, comunidades ga
 - Marcado com <header> contendo <nav> e lista <ul>
 - Todos os links alcançáveis por Tab na ordem visual
 
+### Baner de conversão, cadastro e Login
+Como pedido de evolução na sprint 2 agora temos um banner de conversão na Home que leva o usuário para a página de cadastro/login, usando conceitos de acessibilidade e usabilidade para que fique claro, simples e direto e a conversão seja rápida e bem explicada.
+
+**Sem servidor, os formulários enviam para breve.html, que confirma o envio e explica que a plataforma está em construção.**
+
 ### Hero section
 
 - *Descrição:* área de destaque com chamada principal, descrição de apoio e um CTA primário.
@@ -134,6 +139,29 @@ Para ver a nova página de login use o link → [https://iara-games-fiap.vercel.
 
 ### Persona
 Para esssa nova página foram utilizdos estratégias de design na construção da proto-persona Bruno que foi o nosso guia para a jornada de usuário de login e cadastro bem como a implementação da UI apra o código.
+
+### ESG
+A Iara Games não precisa alegar que está salvando o planeta. O que vale é apontar quais escolhas concretas se relacionam com cada pilar — e separar o que já existe no código do que é compromisso declarado.
+
+#### Ambiental
+- Produto 100% digital: sem mídia física, embalagem ou transporte.
+- Imagens em .webp: compressão superior ao JPEG e ao PNG.
+- Zero JavaScript de runtime nas três páginas.
+- CSS compilado sob medida, só com as classes usadas.
+- Tema escuro nativo, que reduz consumo em telas OLED.
+
+#### Social (O pilar mais forte)
+- Visibilidade para estúdios independentes que não competem em igualdade nas lojas globais.
+- Produção cultural própria: catálogo autoral criado a partir do folclore — Curupira, Saci, Boitatá.
+- Descentralização regional: a origem no card dá presença a quem está fora do eixo Rio–São Paulo.
+- Acessibilidade como inclusão: contraste verificado, rótulos persistentes, navegação por teclado.
+- Idioma e moeda nacionais, num mercado que trata o público como anglófono por padrão.
+
+#### Governança
+- Informações claras sobre os jogos: gênero, estúdio, origem e preço antes do clique.
+- Transparência de preço em real, sem taxa só na finalização.
+- Sem dark patterns: a oferta foi reescrita para ser cumprível.
+- Limitações declaradas em vez de escondidas, como o envio sem back-end.
 
 ## Tecnologias utilizadas
 - **HTML** → Estrutura moderna com tags semânticas.
